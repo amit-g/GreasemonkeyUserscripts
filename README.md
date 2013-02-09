@@ -1,4 +1,4 @@
-ChessboardsPrinting
-===================
+Chessboards Printing
+====================
 
-Chess.com's Chessboards Printing Greasemonkey Userscript
+This is a Greasemonkey Userscript to add a "Print Chessboards" link to chess.com pages.
