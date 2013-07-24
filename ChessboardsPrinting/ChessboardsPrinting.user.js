@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        Chess.com Chessboards Printing
 // @namespace   http://www.chess.com
-// @description Chess.com chessboards printing
+// @description Adds a PRINT CHESSBOARDS button to Chess.com for chessboards printing
 // @include     http://www.chess.com/*
 // @version     1
 // @require     http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js
