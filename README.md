@@ -1,7 +1,7 @@
 Greasemonkey Userscripts
 ========================
 
-This is a collection of Greasemonkey Userscripts.
+This is a collection of Greasemonkey Userscripts for Firefox addon.
 
 https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/
 
