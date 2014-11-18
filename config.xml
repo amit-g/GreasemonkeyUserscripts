@@ -1,0 +1,44 @@
+<UserScriptConfig>
+	<Script basedir="ChessboardsPrinting" checkRemoteUpdates="1" dependhash="41e6ce06ec5bac4dc4bd5605b18e765141c4149d" description="Adds a PRINT CHESSBOARDS button to Chess.com for chessboards printing" enabled="true" noframes="false" filename="ChessboardsPrinting.user.js" installTime="1391453177940" modified="1391453177940" name="Chess.com Chessboards Printing" namespace="http://www.chess.com" runAt="document-end" updateMetaStatus="unknown" uuid="f4c3c29e-0094-4f47-b6ef-91a79e4295aa" version="1" installurl="file:///E:/Users/agupta/AppData/Roaming/Mozilla/Firefox/Profiles/jyoaryhb.default/gm_scripts/ChessboardsPrinting/ChessboardsPrinting.user.js" updateurl="file:///E:/Users/agupta/AppData/Roaming/Mozilla/Firefox/Profiles/jyoaryhb.default/gm_scripts/ChessboardsPrinting/ChessboardsPrinting.user.js">
+		<Grant>none</Grant>
+		<Include>http://www.chess.com/*</Include>
+		<Require filename="jquery.min.js"/>
+	</Script>
+	<Script basedir="EnchantedLearningPuzzles" checkRemoteUpdates="1" dependhash="41e6ce06ec5bac4dc4bd5605b18e765141c4149d" description="" enabled="true" noframes="false" filename="Enchanted_Learning_Puzzles.user.js" installTime="1391453217243" modified="1391453217243" name="Enchanted Learning Puzzles" namespace="http://www.enchantedlearning.com" runAt="document-end" updateMetaStatus="unknown" uuid="679b7fa7-8cfc-40c0-81eb-4b023a14f506" version="1" installurl="file:///E:/Users/agupta/AppData/Roaming/Mozilla/Firefox/Profiles/jyoaryhb.default/gm_scripts/Enchanted_Learning_Puzzles/Enchanted_Learning_Puzzles.user.js" updateurl="file:///E:/Users/agupta/AppData/Roaming/Mozilla/Firefox/Profiles/jyoaryhb.default/gm_scripts/EnchantedLearningPuzzles/EnchantedLearningPuzzles.user.js">
+		<Grant>none</Grant>
+		<Include>http://www.enchantedlearning.com/*/*/puzzles/*</Include>
+		<Require filename="jquery.min.js"/>
+	</Script>
+	<Script basedir="GithubRun" checkRemoteUpdates="1" dependhash="5f26444d2fbd48a5aa40e7d7f29ffe1036733881" description="Adds a Live Run button to Github.com source files" enabled="true" noframes="false" filename="GithubRun.user.js" installTime="1391453234953" modified="1391453234953" name="Github.com Run" namespace="http://www.github.com" runAt="document-end" updateMetaStatus="unknown" uuid="9364051b-7242-43aa-bbc5-868a595ba1c4" version="1" installurl="file:///E:/Users/agupta/AppData/Roaming/Mozilla/Firefox/Profiles/jyoaryhb.default/gm_scripts/GithubRun/GithubRun.user.js" updateurl="file:///E:/Users/agupta/AppData/Roaming/Mozilla/Firefox/Profiles/jyoaryhb.default/gm_scripts/GithubRun/GithubRun.user.js">
+		<Grant>none</Grant>
+		<Include>https://github.com/*/*</Include>
+		<Require filename="GithubRun.user-1.js"/>
+	</Script>
+	<Script basedir="TOIReadability" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="Opens the content pages with readability" enabled="true" noframes="false" filename="TOIReadability.user.js" installTime="1391453247613" modified="1404775479267" name="TOIReadability" namespace="http://timesofindia.indiatimes.com/" runAt="document-end" updateMetaStatus="unknown" uuid="e3b6b2c3-9616-45b2-8f21-6fbbe8cc0c9c" version="1" installurl="file:///E:/Users/agupta/AppData/Roaming/Mozilla/Firefox/Profiles/jyoaryhb.default/gm_scripts/TOIReadability/TOIReadability.user.js" updateurl="file:///E:/Users/agupta/AppData/Roaming/Mozilla/Firefox/Profiles/jyoaryhb.default/gm_scripts/TOIReadability/TOIReadability.user.js">
+		<Grant>none</Grant>
+		<Include>/^https?://timesofindia.indiatimes.com/.*/?articleshow/[0-9]+\.cms\??$/</Include>
+	</Script>
+	<Script basedir="AcceptRate" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="Display a user's Stack Exchange question accept rate" enabled="true" noframes="false" filename="acceptrate.user.js" installTime="1391640192429" modified="1391648766407" name="Accept Rate" namespace="k0tFZXXD" runAt="document-end" updateMetaStatus="ok" uuid="6ecd8575-c541-4574-8c9a-ff17f5c29843" version="0.4" installurl="https://gist.github.com/anonymous/5997591/raw/4a61db173ca7536b84ba139f3c86ed9ae2d44797/acceptrate.user.js" updateurl="https://gist.github.com/anonymous/5997591/raw/4a61db173ca7536b84ba139f3c86ed9ae2d44797/acceptrate.user.js">
+		<Exclude>http://chat./</Exclude>
+		<Grant>none</Grant>
+		<Include>http://stackoverflow.com/*</Include>
+		<Include>http://serverfault.com/*</Include>
+		<Include>http://superuser.com/*</Include>
+		<Include>http://meta.stackoverflow.com/*</Include>
+		<Include>http://meta.serverfault.com/*</Include>
+		<Include>http://meta.superuser.com/*</Include>
+		<Include>http://stackapps.com/*</Include>
+		<Include>http://.stackexchange.com/</Include>
+		<Include>http://askubuntu.com/*</Include>
+		<Include>http://meta.askubuntu.com/*</Include>
+		<Include>http://answers.onstartups.com/*</Include>
+		<Include>http://meta.answers.onstartups.com/*</Include>
+		<Include>http://mathoverflow.net/*</Include>
+		<Include>http://meta.mathoverflow.net/*</Include>
+		<Include>http://discuss.area51.stackexchange.com/*</Include>
+	</Script>
+	<Script basedir="Mailcity" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="" enabled="true" noframes="false" filename="Mailcity.user.js" installTime="1416245795667" modified="1416253555562" name="Mailcity" namespace="https://webmail.lycos.com/?_task=mail" runAt="document-end" updateMetaStatus="unknown" uuid="8669f8dc-dcbb-400e-a675-90bfe6d7bc00" version="1" installurl="file:///C:/Users/agupta/AppData/Roaming/Mozilla/Firefox/Profiles/hshf78xh.default/gm_scripts/Mailcity/Mailcity.user.js" updateurl="file:///C:/Users/agupta/AppData/Roaming/Mozilla/Firefox/Profiles/hshf78xh.default/gm_scripts/Mailcity/Mailcity.user.js">
+		<Grant>none</Grant>
+		<Include>/^https?://webmail.lycos.com/\?_task=mail$/</Include>
+	</Script>
+</UserScriptConfig>

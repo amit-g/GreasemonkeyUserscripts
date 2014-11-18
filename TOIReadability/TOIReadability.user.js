@@ -11,7 +11,7 @@
 	run();
  
 	function run() {
-		if (document.referrer.indexOf("www.readability.com") == -1) {
+		if (document.referrer && document.referrer.indexOf("www.readability.com") == -1) {
 			readNow();
 		}
 	}

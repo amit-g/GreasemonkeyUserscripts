@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        Github.com Run
+// @name        GithubRun
 // @namespace   http://www.github.com
 // @description Adds a Live Run button to Github.com source files
 // @include     https://github.com/*/*

@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        Chess.com Chessboards Printing
+// @name        ChessboardsPrinting
 // @namespace   http://www.chess.com
 // @description Adds a PRINT CHESSBOARDS button to Chess.com for chessboards printing
 // @include     http://www.chess.com/*
