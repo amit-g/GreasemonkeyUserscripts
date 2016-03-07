@@ -15,6 +15,11 @@ Enchanted Learning Puzzles
 
 This is a Greasemonkey Userscript to make the page printable.
 
+Jira
+--------------------------
+
+This is a Greasemonkey Userscript to convert the changeset in comments to a TFS changeset link.
+
 Github Run
 ----------
 

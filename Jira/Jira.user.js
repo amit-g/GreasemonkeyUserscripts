@@ -16,13 +16,13 @@
 	}
 	
 	function detectChangesetsAndMakeTfsLink() {
-    var baseTfsLink = "iProject:8080/tfs/main/_versionControl/changeset?id=";
+    var baseTfsLink = "http://iProject:8080/tfs/main/_versionControl/changeset?id=";
     
     $(".activity-comment .action-body").each(function(){
       var html = $(this).html();
       if (html.indexOf("Changeset") != -1) {
         var re = /(Changeset[s: ]*)([0-9]+)/ig;
-        html = html.replace(re, "<a href='" + baseTfsLink + "$2'>$1 $2</a>");
+        html = html.replace(re, "<a href='" + baseTfsLink + "$2' target='_blank'>$1 $2</a>");
         $(this).html(html)
       }
     });
