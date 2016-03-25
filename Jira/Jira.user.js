@@ -8,22 +8,25 @@
 // ==/UserScript==
 
 (function () {
-	run();
- 
-	function run() {
-		detectChangesetsAndMakeTfsLink();
-	}
-	
-	function detectChangesetsAndMakeTfsLink() {
-    var baseTfsLink = "http://iProject:8080/tfs/main/_versionControl/changeset?id=";
-    
-    $(".activity-comment .action-body").each(function(){
-      var html = $(this).html();
-      var re = /(Changeset[s: ]*)([0-9]+)/ig;
-      if (re.test(html)) {
-        html = html.replace(re, "<a href='" + baseTfsLink + "$2' target='_blank'>$1 $2</a>");
-        $(this).html(html)
-      }
-    });
-	}
+    run();
+
+    function run() {
+        detectChangesetsAndMakeTfsLink();
+    }
+
+    function detectChangesetsAndMakeTfsLink() {
+        var baseTfsLink = "http://iProject:8080/tfs/main/_versionControl/changeset?id=";
+
+        $(document).ajaxStop(function() {
+            $(".activity-comment .action-body").each(function(){
+                var html = $(this).html();
+                var re = /(Changeset[s: ]*)([0-9]+)/ig;
+
+                if (re.test(html)) {
+                    html = html.replace(re, "<a href='" + baseTfsLink + "$2' target='_blank'>$1 $2</a>");
+                    $(this).html(html)
+                }
+            });
+        });
+    }
 })();
