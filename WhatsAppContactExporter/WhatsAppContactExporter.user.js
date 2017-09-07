@@ -27,14 +27,19 @@
 	}
     
 	function exportContacts() {
-		var chats = document.querySelectorAll("div.chat");
-        for (var i = 0; i < chats.length; i++) {
-            var chat = chats[i];
-
-            var titleSpan = chat.querySelector("div.chat-title > span");
-            var title = titleSpan.getAttribute("title");
-
-            var metaSpan = chat.querySelector("div.chat-meta > span");
-        }
+        var $container = $(this).closest(".drawer-manager");
+        var $chats = $("div.chat", $container);
+        
+        console.log("Exporting " + $chats.length + " Contacts...");
+        
+        $chats.each(function(i) {
+            var $chat = $(this);
+            var $titleSpan = $("div.chat-title > span", $chat);
+            var phoneNumber = $titleSpan.attr("title");
+            var $metaSpan = $("div.chat-meta > span", $chat);
+            var name = $metaSpan.text();
+            
+            console.log('|"' + (i+1) + '"|"' + phoneNumber + '"|"' + name + '"|');
+        });
 	}
 })();
