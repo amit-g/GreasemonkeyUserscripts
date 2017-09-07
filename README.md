@@ -36,6 +36,6 @@ Times of India Readability
 This is a Greasemonkey Userscript to mimic "Read Now" functionality of Readability.com on article pages.
 
 Whats App Web Contact Exporter
-==============================
+------------------------------
 
 This is a Greasemonkey Userscript to add "Export" button to "Group info". The contacts are exported to the Developer Console. Click F12 to access it.
