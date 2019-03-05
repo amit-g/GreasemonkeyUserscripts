@@ -6,7 +6,7 @@
 // @version      1.0.0
 // @match        *://www.youtube.com/*
 // @exclude      *://www.youtube.com/embed/*
-// @connect      gist.githubusercontent.com
+// @connect      raw.githubusercontent.com
 // @grant        GM.xmlHttpRequest
 // @require      https://greasemonkey.github.io/gm4-polyfill/gm4-polyfill.js
 // @require      https://code.jquery.com/jquery-3.2.1.slim.min.js
@@ -33,7 +33,7 @@
         console.log("initValues...")
         GM.xmlHttpRequest({
             method: 'GET',
-            url: 'https://gist.githubusercontent.com/amit-g/9888db1a54209f0e7223c32c451638e4/raw/edfbad904017e3ca671347607cb25f12f8d54dfb/YouTubeFilters.json',
+            url: 'https://raw.githubusercontent.com/amit-g/GreasemonkeyUserscripts/master/YoutubeWhitelist/YouTubeFilters.json',
             onload: function (response) {
                             youTubeFilters = JSON.parse(response.responseText);
                             console.log(youTubeFilters);
@@ -120,7 +120,7 @@
     function getPlaceholderImage($player) {
         var defaultWidth = 948;
         var defaultHeight = 533;
-        var url = "https://via.placeholder.com/" + defaultWidth + "x" + defaultHeight + ".png/333333/CCCCCC?text=Not%20Allowed.%20Think%20it%20should%20be?%20Send%20A%20Pull%20Request.";
+        var url = "https://via.placeholder.com/" + defaultWidth + "x" + defaultHeight + ".png/333333/CCCCCC?text=Want%20to%20whitelist?%20Send%20A%20Pull%20Request.";
         var width = $player.clientWidth || defaultWidth;
         var height = $player.clientHeight || defaultHeight;
 
