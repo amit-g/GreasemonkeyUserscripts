@@ -1,0 +1,9 @@
+{
+    "whitelist": {
+      "owners": [
+          "BBC Earth",
+          "BBC Earth Lab",
+          "NASA"
+        ]
+    }
+  }
